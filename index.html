@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,37 +17,32 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mon premier Template HTML </h1>
-        <nav>
-            <a href="#jcvd">JCVD</a>
-            <br>
-            <a href="#patrick">Patrick Sébastien</a>
-            <br>
-            <a href="#classement">Classement coupe du monde 2018</a>
-            <br>
-            <a href="#tableau">Tableau</a>
-        </nav>
-    </header>
-    <div id="jcvd" class="JCVD">
-        <h2>JCVD</h2>
-        <img src="jean_claude_fait_le_grand___cart_pour_volvo_trucks_2292.jpg" alt="">
+    <h1>Mon premier Template HTML </h1>
+    <ul> 
+        <li><a href="#jcvd">JCVD</a></li>
+        <li><a href="#patoche">Patrick Sébastien</a></li>
+        <li><a href="#classement">Classement coupe du monde</a></li>
+        <li><a href="#tableau">Tableau</a></li>
+    </ul>
+    <section>   
+        <h2 id="jcvd">JCVD</h2>
+
+        <img src="photo/jean_claude_fait_le_grand___cart_pour_volvo_trucks_2292.jpg" alt="">
         <p>
             Quand tu fais le calcul, si vraiment tu veux te rappeler des souvenirs de ton perroquet, entre penser et dire, il y a un monde de différence et cette officialité peut vraiment retarder ce qui devrait devenir... Et j'ai toujours grandi parmi les chiens. 
         </p>
-
         <p>
             You see, premièrement, entre penser et dire, il y a un monde de différence et finalement tout refaire depuis le début. Il y a un an, je t'aurais parlé de mes muscles. 
         </p>
-
         <p>
             Tu comprends, premièrement, il faut se recréer... pour recréer... a better you et parfois c'est bon parfois c'est pas bon. Mais ça, c'est uniquement lié au spirit. 
         </p>
         <br>
         <a href="#" class="retour">Retour en haut </a>
-    </div>
-    <div id="patrick" class="Patoche">
-        <h2>Patrick Sébastien</h2>
+    </section>
+    <br>
+    <section>
+        <h2 id="patoche">Patrick Sébastien</h2>
         <p>
             Elle fait peur aussi
         </p>
@@ -104,11 +99,7 @@
             Pour laver la belette
         </p>
         <p>
-        </p>
-        <p>
             {refrain}
-        </p>
-        <p>
         </p>
         <p>
             ils vont encore dirent que je ne pense qu'à ça,
@@ -128,59 +119,58 @@
         <p>
             A la maison, à ton bureau
         </p>
-        <p>
-        </p>
         <br>
         <a href="#" class="retour">Retour en haut </a>
-    </div>
-    <div id="classement" class="classement">
-        <h2>Résultat coupe du monde 2018</h2>
-        <img src="FIFA_World_Cup_2018_Logo.png" alt="">
-        <ul>
-            <ol>
-                <li>France</li>
-                <li>Croatie</li>
-                <li>Belgique</li>
-                <li>Angleterre</li>
-            </ol>   
-        </ul>
+    </section>
+    <br>
+    <section>
+        <h2 id="classement">Résultat coupe du monde 2018</h2>
+        <img src="photo/FIFA_World_Cup_2018_Logo.png" alt="">
+        <ol>
+            <li>France</li>
+            <li>Croatie</li>
+            <li>Belgique</li>
+            <li>Angleterre</li>
+        </ol>   
         <br>
         <a href="https://www.fifa.com/fr" target="_blank">Site de la FIFA</a>
         <br>
         <br>
         <a href="#" class="retour">Retour en haut </a>
-    </div>
+    </section>
     <br>
-    <table>
-        <h2>Tableau</h2>
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Age</th>
-                <th>Pays</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>FRANCOIS</td>
-                <td>24</td>
-                <td><img src="fr.png" alt=""></td>
-            </tr>
-            <tr>
-                <td>VAN DER BRUCK</td>
-                <td>32</td>
-                <td><img src="belg.png" alt=""></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Nom</td>
-                <td>Age</td>
-                <td>Pays</td>
-            </tr>
-        </tfoot>
-    </table>
-    <br>
-    <a href="#" class="retour">Retour en haut </a>
+    <section>
+        <h2 id="tableau">Tableau</h2>
+        <table>       
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Age</th>
+                    <th>Pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>FRANCOIS</td>
+                    <td>24</td>
+                    <td><img src="photo/fr.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>VAN DER BRUCK</td>
+                    <td>32</td>
+                    <td><img src="photo/belg.png" alt=""></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nom</td>
+                    <td>Age</td>
+                    <td>Pays</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <a href="#" class="retour">Retour en haut </a>
+    </section>
 </body>
 </html>
